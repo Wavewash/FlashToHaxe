@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="FlashToHaxeDemo" package="org.none" version="1.0.0" company="None" />
+	<app main="Main" path="Export" file="FlashToHaxeDemo" />
+	
+	<window width="800" height="600" fps="61" />
+	
+	<source path="Source" />
+	
+	<define name="stats" if="html5" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
